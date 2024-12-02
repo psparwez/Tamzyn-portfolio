@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamzyn Portfolio Gradient Web Page | Responsive</title>
+    <!-- -------------------- Favicon ----------------  -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/hand-icon.png"
+      type="image/x-icon"
+    />
+    <!-- ------ Custom CSS ---------  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ------- Boxicons Icon Cdn Link ----------  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-------------  Google Font{Poppins,OutFit} Link -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ------------- NAVBAR ---------------  -->
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <h3>Tam<span>ZYN.</span></h3>
+      </a>
+      <ul class="nav__lists">
+        <li class="nav__links">
+          <a href="#home" id="active">Home</a>
+        </li>
+        <li class="nav__links"><a href="#about">About Me</a></li>
+
+        <li class="nav__links"><a href="#projects">Projects</a></li>
+        <li class="nav__links"><a href="about.html">Technologies</a></li>
+        <li class="nav__links"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__socials-icons">
+        <i
+          class="ri-sun-fill"
+          id="toggle-mode"
+          title="Toggle dark or light"
+        ></i>
+        <a href="javascript:void()" class="hide-mobile-screen"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+        <a href="javascript:void()" class="hide-mobile-screen"
+          ><i class="ri-facebook-circle-fill"></i
+        ></a>
+        <a href="javascript:void()" class="hide-mobile-screen"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+      </div>
+
+      <button id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+
+    <!-- ------------ Hero Section -------------  -->
+
+    <section class="home" id="home">
+      <div class="container hero__container">
+        <div class="hero__row">
+          <div class="hero__col first">
+            <span class="small-card hero-small-card">Hey, your welcome!</span>
+            <h1 class="heading" id="hide-small-devices">
+              Hello, I'm Tamzyn Helfe,
+            </h1>
+            <h1 class="heading" id="show-small-device">
+              <span> Hello, I'm </span><br />
+              Tamzyn Helfe,
+            </h1>
+            <h1 class="sub-heading">frontend developer</h1>
+
+            <p class="hero__description">
+              Turning ideas into stylish, responsive web experiences with
+              expertise. Let’s create a standout digital presence that leaves a
+              lasting impression.
+            </p>
+            <div class="hero-btns">
+              <a
+                href="/assets/cvs/TamZyn CV.pdf"
+                class="btn btn-primary hero__btn"
+                download
+                >Download CV</a
+              >
+              <a href="#contact" class="secondary-btn">Hire Me</a>
+            </div>
+          </div>
+          <div class="hero__col second">
+            <div class="hero-right-image">
+              <img src="/assets/images/profile-hero.png" alt="" />
+            </div>
+            <div class="hero-ring"></div>
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-down" title="Scroll down"></a>
+      </div>
+    </section>
+
+    <!-- ------------ About Section -------------  -->
+
+    <section class="about" id="about">
+      <div class="container about__container">
+        <div class="header-text about-header">
+          <div class="small-card">Introduction</div>
+          <h3 class="title">About Me</h3>
+        </div>
+        <div class="about__main-container">
+          <div class="about__row">
+            <div class="about-col left">
+              <div class="about-image">
+                <img src="/assets/images/about-img.png" alt="" />
+              </div>
+            </div>
+            <div class="about-col right">
+              <p>
+                I am an experienced Frontend Developer with over a decade of
+                professional expertise in the field. Throught my career , I have
+                had the privilege of collaborating with prestigious
+                organizations, contributting to their success and grouth.
+              </p>
+
+              <div class="about__cards">
+                <!-- Card 1  -->
+                <div class="about-card">
+                  <img
+                    src="/assets/images/code-icon-dark.png"
+                    alt=""
+                    class="dark-mode"
+                  />
+                  <img
+                    src="/assets/images/code-icon.png"
+                    class="light-mode"
+                    alt=""
+                  />
+                  <h4>Languages</h4>
+                  <p>HTML,CSS,JavaScript, React JS adn Next JS</p>
+                </div>
+                <!-- Card 2  -->
+                <div class="about-card">
+                  <img
+                    src="/assets/images/edu-icon-dark.png"
+                    alt=""
+                    class="dark-mode"
+                  />
+                  <img
+                    src="/assets/images/edu-icon.png"
+                    class="light-mode"
+                    alt=""
+                  />
+                  <h4>Education</h4>
+                  <p>B.Tech in computer Sciemce</p>
+                </div>
+                <!-- Card 3  -->
+                <div class="about-card">
+                  <img
+                    src="/assets/images/project-icon-dark.png"
+                    alt=""
+                    class="dark-mode"
+                  />
+                  <img
+                    src="/assets/images/project-icon.png"
+                    class="light-mode"
+                    alt=""
+                  />
+                  <h4>Projects</h4>
+                  <p>Build more that 100 projects</p>
+                </div>
+              </div>
+
+              <div class="most-use">
+                <h4>Tools I Use</h4>
+
+                <ul class="tools">
+                  <li><img src="/assets/images/vscode.png" alt="" /></li>
+                  <li><img src="/assets/images/firebase.png" alt="" /></li>
+
+                  <li><img src="/assets/images/mongodb.png" alt="" /></li>
+                  <li><img src="/assets/images/figma.png" alt="" /></li>
+                  <li><img src="/assets/images/git.png" alt="" /></li>
+
+                  <a href="about.html" class="more-about hide-mobile-screen"
+                    >More about <i class="ri-arrow-right-s-fill"></i
+                  ></a>
+                </ul>
+                <a href="about.html" class="more-about show-mobile-screen"
+                  >More about <i class="ri-arrow-right-s-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------ Projects Section -------------  -->
+
+    <section class="projects" id="projects">
+      <div class="container projects__container">
+        <div class="header-text projects-header">
+          <div class="small-card">Some of my works</div>
+          <h3 class="title">Our Projects</h3>
+        </div>
+
+        <div class="projects__main-container">
+          <div class="projects__cards">
+            <!-- Card 1  -->
+            <div class="projects__card">
+              <div class="project-image">
+                <img src="/assets/images/project-1.png" alt="" />
+              </div>
+              <div class="card-header">
+                <h3>Crypto Portfolio Design</h3>
+                <i class="ri-more-2-fill"></i>
+              </div>
+              <p class="card-description">
+                A responsive and user-friendly crypto portfolio design with
+                features like real-time market data, portfolio tracking, and
+                more.
+              </p>
+
+              <div class="cards-btns">
+                <a href="javascript:void()"
+                  >Preview
+                  <img
+                    src="/assets/images/paperclip-solid.svg"
+                    width="18"
+                    alt=""
+                /></a>
+                <a href="javascript:void()"
+                  >github <i class="ri-github-fill"></i
+                ></a>
+              </div>
+            </div>
+            <!-- Card 2  -->
+            <div class="projects__card">
+              <i class="ri-bookmark-3-fill"></i>
+
+              <div class="project-image">
+                <img src="/assets/images/project-2.jpg" alt="" />
+              </div>
+              <div class="card-header">
+                <h3>AI Telehealth & Telemedicine</h3>
+                <i class="ri-more-2-fill"></i>
+              </div>
+              <p class="card-description">
+                A platform that helps doctors and patients to connect with each
+                other, providing a seamless telehealth and telemedicine
+                experience.
+              </p>
+              <div class="cards-btns">
+                <a href="javascript:void()"
+                  >Preview
+                  <img
+                    src="/assets/images/paperclip-solid.svg"
+                    width="18"
+                    alt=""
+                /></a>
+                <a href="javascript:void()"
+                  >github <i class="ri-github-fill"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Card 3  -->
+            <div class="projects__card">
+              <div class="project-image">
+                <img src="/assets/images/project-3.png" alt="" />
+              </div>
+              <div class="card-header">
+                <h3>FlowFunds a Mobile app</h3>
+                <i class="ri-more-2-fill"></i>
+              </div>
+              <p class="card-description">
+                A mobile app that helps users find and book flow funds, ensuring
+                they receive the funds they need when they need them.
+              </p>
+              <div class="cards-btns">
+                <a href="javascript:void()"
+                  >Preview
+                  <img
+                    src="/assets/images/paperclip-solid.svg"
+                    width="18"
+                    alt=""
+                /></a>
+                <a href="javascript:void()"
+                  >github <i class="ri-github-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="show-more">
+            <a href="projects.html" class="card-btn"
+              >Show More <i class="ri-arrow-right-double-fill"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------ Contact US ---------------  -->
+
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <div class="header-text contact-header">
+          <div class="small-card">Get in taouch</div>
+          <h3 class="title">Contact Us</h3>
+        </div>
+
+        <div class="contact__main-container">
+          <div class="contact__row">
+            <div class="contact__col left">
+              <form action="#" class="form" autocomplete="off">
+                <div class="input-box">
+                  <label for="name" class="text-label">Name*</label>
+                  <input type="text" id="name" required />
+                </div>
+                <div class="input-box">
+                  <label for="email" class="text-label">Email*</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div class="input-box">
+                  <label for="message" class="text-label">Message*</label>
+                  <textarea name="message" id="message" cols="30"></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Submit Now</button>
+              </form>
+            </div>
+            <div class="contact__col right">
+              <div class="contact-image">
+                <img src="/assets/images/contact-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="contact__cards">
+            <div class="contact__card">
+              <i class="ri-phone-fill"></i>
+              <h4>Phone Or Landline</h4>
+              <p>+525 782 7377 716</p>
+              <p>+525 782 2272 292</p>
+            </div>
+            <div class="contact__card">
+              <i class="ri-mail-fill"></i>
+              <h4>Mail Or Query</h4>
+              <p>info@tamzyn.com</p>
+              <p>support@tamzyn.com</p>
+            </div>
+            <div class="contact__card">
+              <i class="ri-map-pin-2-fill"></i>
+              <h4>Located Or Nearby</h4>
+              <p>Calle 123, Colonia, Delegación, Ciudad, CP 12345</p>
+              <p>USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------ Freelancing ---------------  -->
+
+    <section class="freelancing">
+      <div class="container freelancing__container">
+        <div class="freelancing__row">
+          <div class="freelancing__col left">
+            <h2>We'are <span>availablbe</span> for freelancing</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+              maiores corrupti quam, consectetur impedit assumenda?
+            </p>
+            <!-- <a href="#" class="btn-primary hire-btn">Hire me</a> -->
+            <a href="#" class="btn-primary hire-btn">Contact Us</a>
+          </div>
+          <div class="freelancing__col right">
+            <div class="freelancing-image">
+              <img src="/assets/images/freelance.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------ Footer ----------------  -->
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__main-container">
+          <div class="foot-logo">
+            <div class="img">
+              <img src="/assets/images/profile-hero.png" alt="" />
+            </div>
+            <a href="#" class="logo footlogo">
+              <h3>Tam<span>ZYN.</span></h3>
+            </a>
+          </div>
+
+          <ul class="nav__lists footer__lists">
+            <li class="nav__links">
+              <a href="#home" id="active">Home</a>
+            </li>
+            <li class="nav__links"><a href="#about">About Me</a></li>
+
+            <li class="nav__links"><a href="#projects">Projects</a></li>
+            <li class="nav__links">
+              <a href="javascript:void()">Privacy Policy</a>
+            </li>
+            <li class="nav__links">
+              <a href="javascript:void()">Disclaimer</a>
+            </li>
+          </ul>
+
+          <div class="nav__socials-icons footer__social-icons">
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+            <i class="ri-behance-fill"></i>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <i class="ri-pinterest-fill"></i>
+            <a href="#"><i class="ri-github-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer-text">
+          <p>&copy; TamZYN. All rights reserved | 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ----------- Custom JS --------------------  -->
+
+    <script src="/js/script.js"></script>
+
+    <!-- --------------------- FOR SMOOTH SCROLL ------------------  -->
+    <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis();
+
+      lenis.on("scroll", (e) => {
+        // console.log(e);
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>

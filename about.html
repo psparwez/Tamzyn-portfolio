@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamzyn Portfolio Gradient Web Page | Responsive</title>
+    <!-- -------------------- Favicon ----------------  -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/hand-icon.png"
+      type="image/x-icon"
+    />
+    <!-- ------ Custom CSS ---------  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ------- Boxicons Icon Cdn Link ----------  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-------------  Google Font{Poppins,OutFit} Link -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ------------- NAVBAR ---------------  -->
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <h3>Tam<span>ZYN.</span></h3>
+      </a>
+      <ul class="nav__lists">
+        <li class="nav__links">
+          <a href="index.html#home" id="active">Home</a>
+        </li>
+        <li class="nav__links"><a href="about.html">About Me</a></li>
+
+        <li class="nav__links"><a href="projects.html">Projects</a></li>
+        <li class="nav__links"><a href="about.html">Technologies</a></li>
+        <li class="nav__links"><a href="index.html#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__socials-icons">
+        <i
+          class="ri-sun-fill"
+          id="toggle-mode"
+          title="Toggle dark or light"
+        ></i>
+        <a href="#" class="hide-mobile-screen"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+        <a href="#" class="hide-mobile-screen"
+          ><i class="ri-facebook-circle-fill"></i
+        ></a>
+        <a href="#" class="hide-mobile-screen"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+      </div>
+
+      <button id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+
+    <!-- ------------ About Section -------------  -->
+
+    <section class="about about-page" id="about">
+      <div class="container about__container about-page-container">
+        <div class="header-text about-header">
+          <div class="small-card">Introduction</div>
+          <h3 class="title">About Me</h3>
+        </div>
+        <div class="about__main-container">
+          <div class="about__row">
+            <div class="about-col left">
+              <div class="about-image about-page-image">
+                <img src="/assets/images/about-img.png" alt="" />
+              </div>
+            </div>
+            <div class="about-col right">
+              <p>
+                I am an experienced Frontend Developer with over a decade of
+                professional expertise in the field. Throught my career , I have
+                had the privilege of collaborating with prestigious
+                organizations, contributting to their success and grouth.
+              </p>
+
+              <div class="about__cards">
+                <!-- Card 1  -->
+                <div class="about-card">
+                  <img
+                    src="/assets/images/code-icon-dark.png"
+                    alt=""
+                    class="dark-mode"
+                  />
+                  <img
+                    src="/assets/images/code-icon.png"
+                    class="light-mode"
+                    alt=""
+                  />
+                  <h4>Languages</h4>
+                  <p>HTML,CSS,JavaScript, React JS adn Next JS</p>
+                </div>
+                <!-- Card 2  -->
+                <div class="about-card">
+                  <img
+                    src="/assets/images/edu-icon-dark.png"
+                    alt=""
+                    class="dark-mode"
+                  />
+                  <img
+                    src="/assets/images/edu-icon.png"
+                    class="light-mode"
+                    alt=""
+                  />
+                  <h4>Education</h4>
+                  <p>B.Tech in computer Sciemce</p>
+                </div>
+                <!-- Card 3  -->
+                <div class="about-card">
+                  <img
+                    src="/assets/images/project-icon-dark.png"
+                    alt=""
+                    class="dark-mode"
+                  />
+                  <img
+                    src="/assets/images/project-icon.png"
+                    class="light-mode"
+                    alt=""
+                  />
+                  <h4>Projects</h4>
+                  <p>Build more that 100 projects</p>
+                </div>
+              </div>
+
+              <div class="most-use">
+                <h4>Tools I Use</h4>
+
+                <ul class="tools">
+                  <li><img src="/assets/images/vscode.png" alt="" /></li>
+                  <li><img src="/assets/images/firebase.png" alt="" /></li>
+
+                  <li><img src="/assets/images/mongodb.png" alt="" /></li>
+                  <li><img src="/assets/images/figma.png" alt="" /></li>
+                  <li><img src="/assets/images/git.png" alt="" /></li>
+
+                  <a
+                    href="/assets/cvs/TamZyn CV.pdf"
+                    class="more-about hide-mobile-screen"
+                    >Download CV <i class="ri-download-2-fill"></i
+                  ></a>
+                </ul>
+
+                <a
+                  href="javascript:void()"
+                  class="more-about show-mobile-screen"
+                  >Download CV <i class="ri-download-2-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------ Technologies Section -------------  -->
+
+    <section class="technologies" id="technologies">
+      <div class="container technologies__container">
+        <div class="header-text technologies-header">
+          <div class="small-card">Some of my skills</div>
+          <h3 class="title">Technologies I Work With</h3>
+        </div>
+        <div class="tech__main-container">
+          <div class="tech__row">
+            <div class="tech__col left">
+              <div class="tech-label-text">
+                <h4>HTML</h4>
+                <span>Advanced</span>
+              </div>
+
+              <div class="progress__bar html"></div>
+
+              <div class="tech-label-text">
+                <h4>CSS, Sass & Bootstrap</h4>
+                <span>Advanced</span>
+              </div>
+
+              <div class="progress__bar css"></div>
+
+              <div class="tech-label-text">
+                <h4>JavaScript, TypeScript & jQuery</h4>
+                <span>Advanced</span>
+              </div>
+
+              <div class="progress__bar javascript"></div>
+
+              <div class="tech-label-text">
+                <h4>React JS & Next JS</h4>
+                <span>Advanced</span>
+              </div>
+              <div class="progress__bar react"></div>
+
+              <div class="tech-label-text">
+                <h4>React Native & Angular</h4>
+                <span>Intermediate</span>
+              </div>
+              <div class="progress__bar react-native"></div>
+
+              <div class="tech-label-text">
+                <h4>UI Design in figma</h4>
+                <span>Regular</span>
+              </div>
+              <div class="progress__bar figma"></div>
+            </div>
+
+            <div class="tech__col right">
+              <h3>Additional Technologies & Skills</h3>
+              <ul class="additional-skills">
+                <li>Git</li>
+                <li>Wordprss</li>
+                <li>Team Work</li>
+                <li>Quick learning</li>
+                <li>Engagement</li>
+                <li>B2 english</li>
+              </ul>
+
+              <div class="flow-path">
+                <div class="flow-text">
+                  <h3>2020</h3>
+                  <h3>2023</h3>
+                  <h3>2024</h3>
+                </div>
+                <div class="flow-bar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="flow-describe">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore mollitia quos accusamus aliquam est, officiis velit
+                    voluptatem fugit porro inventore.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ullam id ducimus repellendus sunt voluptatibus fuga
+                    consectetur consequatur cupiditate iste eveniet!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------ Contact US ---------------  -->
+
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <div class="header-text contact-header">
+          <div class="small-card">Get in taouch</div>
+          <h3 class="title">Contact Us</h3>
+        </div>
+
+        <div class="contact__main-container">
+          <div class="contact__row">
+            <div class="contact__col left">
+              <form action="#" class="form" autocomplete="off">
+                <div class="input-box">
+                  <label for="name" class="text-label">Name*</label>
+                  <input type="text" id="name" required />
+                </div>
+                <div class="input-box">
+                  <label for="email" class="text-label">Email*</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div class="input-box">
+                  <label for="message" class="text-label">Message*</label>
+                  <textarea name="message" id="message" cols="30"></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Submit Now</button>
+              </form>
+            </div>
+            <div class="contact__col right">
+              <div class="contact-image">
+                <img src="/assets/images/contact-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="contact__cards">
+            <div class="contact__card">
+              <i class="ri-phone-fill"></i>
+              <h4>Phone Or Landline</h4>
+              <p>+525 782 7377 716</p>
+              <p>+525 782 2272 292</p>
+            </div>
+            <div class="contact__card">
+              <i class="ri-mail-fill"></i>
+              <h4>Mail Or Query</h4>
+              <p>info@tamzyn.com</p>
+              <p>support@tamzyn.com</p>
+            </div>
+            <div class="contact__card">
+              <i class="ri-map-pin-2-fill"></i>
+              <h4>Located Or Nearby</h4>
+              <p>Calle 123, Colonia, Delegación, Ciudad, CP 12345</p>
+              <p>USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------ Footer ----------------  -->
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__main-container">
+          <div class="foot-logo">
+            <div class="img">
+              <img src="/assets/images/profile-hero.png" alt="" />
+            </div>
+            <a href="#" class="logo footlogo">
+              <h3>Tam<span>ZYN.</span></h3>
+            </a>
+          </div>
+
+          <ul class="nav__lists footer__lists">
+            <li class="nav__links">
+              <a href="#home" id="active">Home</a>
+            </li>
+            <li class="nav__links"><a href="#about">About Me</a></li>
+
+            <li class="nav__links"><a href="#projects">Projects</a></li>
+            <li class="nav__links">
+              <a href="javascript:void()">Privacy Policy</a>
+            </li>
+            <li class="nav__links">
+              <a href="javascript:void()">Disclaimer</a>
+            </li>
+          </ul>
+
+          <div class="nav__socials-icons footer__social-icons">
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+            <i class="ri-behance-fill"></i>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <i class="ri-pinterest-fill"></i>
+            <a href="#"><i class="ri-github-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer-text">
+          <p>&copy; TamZYN. All rights reserved | 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ----------- Custom JS --------------------  -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
