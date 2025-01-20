@@ -21,7 +21,7 @@ Designed for all devices, built using HTML, CSS, JavaScript, and React.
 <br />
 <br />
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Tamzyn%20Portfolio-blue?style=for-the-badge)](https://github.com/psparwez/Tamzyn-portfolio)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Tamzyn%20Portfolio-blue?style=for-the-badge)](https://psparwez.github.io/Tamzyn-portfolio/)
 
 </div>
 
