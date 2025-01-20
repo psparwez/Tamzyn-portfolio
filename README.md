@@ -1,4 +1,3 @@
-
 <div align="center">
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/psparwez/Tamzyn-portfolio)
@@ -6,9 +5,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/psparwez/Tamzyn-portfolio?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/psparwez/Tamzyn-portfolio)
 
-
-
-<br />
 <br />
 <h1 align="center">Tamzyn Helfe Portfolio</h1> <br />
 <br />
@@ -19,13 +15,11 @@ Designed for all devices, built using HTML, CSS, JavaScript, and React.
 </p>
 
 <br />
-<br />
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Tamzyn%20Portfolio-blue?style=for-the-badge)](https://psparwez.github.io/Tamzyn-portfolio/)
 
 </div>
 
-<br />
 <br />
 
 ### Demo Screeshots
@@ -33,8 +27,6 @@ Designed for all devices, built using HTML, CSS, JavaScript, and React.
   <br />
       <img src="https://github.com/user-attachments/assets/48c0f27f-5b70-4829-b6ef-b2271e581d33" , alt="Project Banner">
       <br />
-  <br />
-  <br />
   <br />
 
   <div>
@@ -175,19 +167,6 @@ Before starting, make sure you have the following installed:
 You’re now ready to explore and customize **Tamzyn Portfolio** locally!
 
 ---
-
-
-
-
-## 📞 Contact
-
-If you have any questions, encounter issues, or would like to collaborate on this project, feel free to reach out!
-
-
-[![Contact](https://img.shields.io/badge/Contact-175fd4?style=for-the-badge&logo=gmail&logoColor=white)](https://github.com/psparwez/psparwez/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-
-
 ### Reporting Issues
 
 If you encounter any bugs or have suggestions, please open an issue on the [GitHub Issues page](https://github.com/psparwez/Tamzyn-portfolio/issues).
