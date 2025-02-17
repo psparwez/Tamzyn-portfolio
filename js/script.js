@@ -87,6 +87,10 @@ navLinks.forEach((link) => {
   });
 });
 
+// year dynamically 
+const currentYear = new Date().getFullYear();
+document.getElementById("year").textContent = currentYear;
+
 // scroll smooth using js
 
 const links = document.querySelectorAll('a[href^="#"]');
